@@ -1,0 +1,98 @@
+{
+  "chain": [
+    {
+      "index": 0,
+      "transactions": [],
+      "timestamp": 1754534639.6233525,
+      "previous_hash": "0",
+      "nonce": 170,
+      "hash": "00efb7d75228e9ab947cd1e12b742d6bdd02b41bcbd160e3da3a6fe63ff354dc"
+    },
+    {
+      "index": 1,
+      "transactions": [
+        {
+          "transaction_id": "a2c4f65c968dd35d96e5158a9219978d4c5a7a176dbfa1e8717685e6fd0fdd0d",
+          "from_address": "system",
+          "to_address": "Alice_0x1234",
+          "amount": 1000.0,
+          "timestamp": 1754534639.6240602
+        },
+        {
+          "transaction_id": "83150feb2b6bec704d4e8ef42d18a415d95dcb9453b3b2b6a8833504420248fa",
+          "from_address": "system",
+          "to_address": "Alice_0x1234",
+          "amount": 100.0,
+          "timestamp": 1754534639.6240766
+        }
+      ],
+      "timestamp": 1754534639.6240845,
+      "previous_hash": "00efb7d75228e9ab947cd1e12b742d6bdd02b41bcbd160e3da3a6fe63ff354dc",
+      "nonce": 205,
+      "hash": "00ccac258d0153459b4486f41a7fccb95cf2310101e67fead59f8afaee388bb4"
+    },
+    {
+      "index": 2,
+      "transactions": [
+        {
+          "transaction_id": "887858dd9d770c71fdd14df8583046a13f9a6ab70d7cfd3c5f7be5b8e59c7c7d",
+          "from_address": "Alice_0x1234",
+          "to_address": "Bob_0x5678",
+          "amount": 300.0,
+          "timestamp": 1754534639.6254706
+        },
+        {
+          "transaction_id": "bfae2619d2d98ac8ad946406c859f7b86dd8a9366f8ac27e9ccad345e2c695d8",
+          "from_address": "Alice_0x1234",
+          "to_address": "Charlie_0x9abc",
+          "amount": 200.0,
+          "timestamp": 1754534639.62549
+        },
+        {
+          "transaction_id": "f96a83bd352ddb587893dc1490d7aaa5663fd339d4613e9b36a64f20932570b6",
+          "from_address": "system",
+          "to_address": "Bob_0x5678",
+          "amount": 100.0,
+          "timestamp": 1754534639.625504
+        }
+      ],
+      "timestamp": 1754534639.6255105,
+      "previous_hash": "00ccac258d0153459b4486f41a7fccb95cf2310101e67fead59f8afaee388bb4",
+      "nonce": 99,
+      "hash": "004f72a3ee8eeb7c74623323ecf1d381de62f02c0b457170237052853d000fb0"
+    },
+    {
+      "index": 3,
+      "transactions": [
+        {
+          "transaction_id": "2f96a02ddd6ed720e3ecb52f807b91c81c9f21712c71846abe7293006ef8663d",
+          "from_address": "Bob_0x5678",
+          "to_address": "Charlie_0x9abc",
+          "amount": 150.0,
+          "timestamp": 1754534639.6263516
+        },
+        {
+          "transaction_id": "97f824df9a15c99e2caa0b8bca40a09b24ad5adfb7481993b78ad64f25be6418",
+          "from_address": "Charlie_0x9abc",
+          "to_address": "Alice_0x1234",
+          "amount": 100.0,
+          "timestamp": 1754534639.6263623
+        },
+        {
+          "transaction_id": "c47d516a07602e41f10b1044506dc6168f0c0f48cabbd2621e143b3c56a0cbf0",
+          "from_address": "system",
+          "to_address": "Charlie_0x9abc",
+          "amount": 100.0,
+          "timestamp": 1754534639.6263733
+        }
+      ],
+      "timestamp": 1754534639.626379,
+      "previous_hash": "004f72a3ee8eeb7c74623323ecf1d381de62f02c0b457170237052853d000fb0",
+      "nonce": 459,
+      "hash": "00688e4348dd7c335910e30c71a668ebead7f9fe6d2d8f996270fd1c493fbca6"
+    }
+  ],
+  "difficulty": 2,
+  "pending_transactions": [],
+  "mining_reward": 100.0
+}
